@@ -1,0 +1,112 @@
+/*font-family: 'Tajawal', sans-serif;*/
+/*font-family: 'Pinyon Script', cursive;*/
+
+/*font-family: 'Playfair Display', serif;*/
+
+body {
+    margin: 0px;
+}
+header{ 
+    background-color: #FBF4F4;
+}
+
+.topnav {
+    overflow: hidden;
+    display: inline;
+    padding-right: 30px;
+}
+
+.topnav b{
+    float: left;
+    text-align: center;
+    text-transform: lowercase;
+    font-family: 'Playfair Display', serif;  
+    text-decoration: none;
+    font-size: 28px;
+    color: #CF8D99;
+    margin-left: 10px;
+}
+
+.topnav a{
+    float: left;
+    text-align: center;
+    list-style: none;
+    font-family: 'Tajawal', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    color: #21383D;
+}
+
+.topnav-right a:hover {
+    color: #CF8D99;
+    border-bottom: 1px solid #CF8D99;
+  }
+
+.topnav-right {
+    margin-right: 100px;
+    float: right;
+    vertical-align: top;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1px;
+  }
+
+img {  
+    max-width: 20%;  
+    padding: 25px; 
+    }  
+
+section {
+    display: block;
+}
+
+#card {
+    display:block;
+    text-align: center;
+    background-color: #EACDC6;
+    color: #FBF4F4;
+    width: 500px;
+    max-height:min-content;
+    margin-left: 50%;
+    margin-top:5%;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#hello {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 40px;
+    align-items: center;
+}
+
+#name {
+    font-size: 50px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+#from {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    margin-left: 45%;
+}
+
+ul {
+    list-style: none;
+}
+
+li a {
+    height: 1000px;
+
+#footers {
+    height: 100px;
+    background-color: #EACDC6;
+}
